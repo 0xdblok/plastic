@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-
+import "animate.css";
 export default function Footer() {
   return (
     <div className="animate__animated animate__fadeInUp">
-      <div className="flex gap-3 pt-10 justify-center lg:justify-end lg:pr-4 pb-3 ">
-        <a href="">
+      <div className="animate__animated animate__fadeInUp flex gap-3 pt-10 justify-center lg:justify-end lg:pr-4 pb-3 ">
+        <a href="https://t.me/+fKNwTERFu84wZmY1">
           {" "}
           <svg
             className="lg:w-[66px] lg:h-[66px]"
@@ -29,7 +29,7 @@ export default function Footer() {
             />
           </svg>
         </a>
-        <a href="">
+        <a href="https://twitter.com/plasticcatbag">
           {" "}
           <svg
             className="lg:w-[66px] lg:h-[66px]"
