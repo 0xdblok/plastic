@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import hero from "../asset/hero.png";
-
+import meow from "../asset/meow.png";
 export default function Hero() {
   return (
     <div>
@@ -16,14 +16,9 @@ export default function Hero() {
               Plastic cat bag
             </a>
           </div>
-          <p className="pt-4 px-36">
-            MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow
-            MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow
-            MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow
-            MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow
-            MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow MeowMeowMeowMeow
-            MeowMeowMeowMeow
-          </p>
+          <div className="flex justify-center px-16 pt-4">
+            <Image src={meow} alt="hero" width={450} height={450} />
+          </div>
         </div>
       </div>
     </div>

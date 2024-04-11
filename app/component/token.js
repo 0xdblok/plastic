@@ -4,7 +4,7 @@ export default function Token() {
   return (
     <div>
       {" "}
-      <div className="pt-32 flex justify-center">
+      <div className="pt-36 flex justify-center">
         <a className="text-white px-12 py-6 font-bold text-2xl bg-black">
           Tocatnomics
         </a>
