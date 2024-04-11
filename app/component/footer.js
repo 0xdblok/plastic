@@ -4,13 +4,13 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div className="animate__animated animate__fadeInUp">
-      <div className="flex gap-3 pt-10 justify-center pb-3 ">
+      <div className="flex gap-3 pt-10 justify-center lg:justify-end lg:pr-4 pb-3 ">
         <a href="">
           {" "}
           <svg
-            className="lg:w-[36px] lg:h-[36px]"
-            width="50"
-            height="50"
+            className="lg:w-[66px] lg:h-[66px]"
+            width="36"
+            height="36"
             viewBox="0 0 50 50"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -32,9 +32,9 @@ export default function Footer() {
         <a href="">
           {" "}
           <svg
-            className="lg:w-[36px] lg:h-[36px]"
-            width="50"
-            height="50"
+            className="lg:w-[66px] lg:h-[66px]"
+            width="36"
+            height="36"
             viewBox="0 0 50 50"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
